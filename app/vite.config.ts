@@ -21,6 +21,30 @@ export default defineConfig({
         }
       ]
     })
+    // Markdown({
+    //   markdownItOptions: {
+    //     html: true,
+    //     xhtmlOut: true,
+    //     breaks: true,
+    //     linkify: true,
+    //     typographer: true
+    //   },
+    //   markdownItSetup(md) {
+    //     md.use(MarkdownItAbbr)
+    //       .use(MarkdownItAnchor)
+    //       .use(MarkdownItFootnote)
+    //       .use(MarkdownItHighlightJS)
+    //       .use(MarkdownItSub)
+    //       .use(MarkdownItSup)
+    //       .use(MarkdownItTaskLists)
+    //       .use(MarkdownItTOC)
+    //       .use(MarkdownHighlight)
+    //       .use(align)
+    //       .use(mark);
+    //   },
+    //   // Class names for the wrapper div
+    //   wrapperClasses: "markdown-body"
+    // })
   ],
   build:{
     target: 'es2018',
