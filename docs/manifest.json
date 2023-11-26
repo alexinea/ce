@@ -11,7 +11,8 @@
       "assets/index.css"
     ],
     "dynamicImports": [
-      "src/views/Home.vue"
+      "src/views/HomeView.vue",
+      "src/views/Page404.vue"
     ],
     "file": "assets/index.js",
     "imports": [
@@ -20,12 +21,29 @@
     "isEntry": true,
     "src": "index.html"
   },
-  "src/views/Home.vue": {
-    "file": "assets/Home.js",
+  "src/views/HomeView.vue": {
+    "file": "assets/HomeView.js",
     "imports": [
+      "index.html",
       "_vendor.js"
     ],
     "isDynamicEntry": true,
-    "src": "src/views/Home.vue"
+    "src": "src/views/HomeView.vue"
+  },
+  "src/views/Page404.css": {
+    "file": "assets/Page404.css",
+    "src": "src/views/Page404.css"
+  },
+  "src/views/Page404.vue": {
+    "css": [
+      "assets/Page404.css"
+    ],
+    "file": "assets/Page404.js",
+    "imports": [
+      "index.html",
+      "_vendor.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/views/Page404.vue"
   }
 }
