@@ -83,12 +83,14 @@ setTitle("Home");
     @apply h-16 md:h-24 lg:h-36 xl:h-48;
     @apply bg-slate-500/10;
     @apply overflow-hidden;
+    @apply transition-all ease-in-out duration-500;
 
     .card-text {
       @apply absolute;
       @apply left-0 -bottom-10;
       @apply md:-left-2 md:-bottom-5;
       @apply font-bold text-white/80 dark:text-white/10 italic;
+      @apply transition-all ease-in-out duration-500;
       font-size: 12rem;
       line-height: 1;
     }
