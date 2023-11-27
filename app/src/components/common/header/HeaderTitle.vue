@@ -174,9 +174,8 @@ onMounted(() => {
           <li class="header-sub-title header-sub-title-secondary">{{ $t("projects-block-get-involved") }}</li>
 
           <li class="header-content">
-            <anchor href="https://contribute.ncc.work" :title="$t('project-contribute')" target="_blank" mode="classic">
+            <anchor href="/" route-name="home" :title="$t('project-contribute')">
               {{ $t("project-contribute") }}
-              <right-small-up class="header-content-arrow" theme="filled" size="24" :fill="useIconColor" />
               <span>
                 {{ $t("project-contribute-desc") }}
               </span>
