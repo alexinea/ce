@@ -34,7 +34,18 @@ uiStore.setLocale(locale ?? "en");
   <footer class="bg-black text-white relative">
     <div class="responsive-width">
 
-      <placeholder-block height="90px" />
+      <placeholder-block height="50px" />
+
+      <div class="text-6xl text-white font-black p-5">
+        Making .NET greater...
+        <span class="bg-gradient-to-b from-purple-900 to-purple-700 rounded-xl px-3 py-1">together</span>.
+      </div>
+
+      <placeholder-block height="30px" />
+
+      <horizontal-rule-element colorMode="dark" />
+
+      <placeholder-block height="30px" />
 
       <navigation-resources />
 
