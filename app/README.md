@@ -1,4 +1,4 @@
-# TheNCC Events Website Source
+# TheNCC Contribute Website Source
 
 This template should help get you started developing with Vue 3 in Vite.
 

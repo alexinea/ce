@@ -52,7 +52,7 @@ import Anchor from "@/components/basic/AnchorElement.vue";
         <anchor href="https://ncc.work/project-maturity-model" :title="$t('project-maturity-model-full')" mode="classic">{{ $t("project-maturity-model-full") }}</anchor>
       </span>
       <span class="nav-item">
-        <anchor href="project-join-ncc" route-name="project-join-ncc" :title="$t('project-how-to-join-us')" target="_blank" mode="classic">{{ $t("project-how-to-join-us") }}</anchor>
+        <anchor href="/project-join-ncc" route-name="project-join-ncc" :title="$t('project-how-to-join-us')" target="_blank" mode="classic">{{ $t("project-how-to-join-us") }}</anchor>
       </span>
     </div>
     <div class="nav-Learning">
