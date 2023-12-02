@@ -68,7 +68,7 @@ setTitle("Home");
 <style scoped lang="css">
 .contribute-together {
   @apply bg-center bg-cover bg-no-repeat;
-  background-image: url("/images/together.webp");
+  background-image: url("/images/material/together.webp");
   height: 40rem;
   @apply rounded-2xl;
 }
