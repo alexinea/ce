@@ -145,6 +145,9 @@
     "as-an-end-user-a": "Connect closely with the community, peers, and open source project teams to make the NCC project your best solution.",
     "as-an-end-user-b": "Join the community"
   },
+  "attend": {
+    "involved-in": "involved in"
+  },
   "page": {
     "first": "First",
     "last": "Last",

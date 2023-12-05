@@ -1,4 +1,41 @@
 {
+  "BodyBlock.css": {
+    "file": "assets/BodyBlock.css",
+    "src": "BodyBlock.css"
+  },
+  "_AnchorElement.vue_vue_type_script_setup_true_lang.js": {
+    "dynamicImports": [
+      "src/views/HomeView.vue",
+      "src/views/ProjectJoinsNCC.vue",
+      "src/views/Contribute2Project.vue",
+      "src/views/AttendTheNCC.vue",
+      "src/views/HelpTheNCCBetter.vue",
+      "src/views/Page404.vue"
+    ],
+    "file": "assets/AnchorElement.vue_vue_type_script_setup_true_lang.js",
+    "imports": [
+      "_vendor.js"
+    ]
+  },
+  "_BodyBlock.js": {
+    "css": [
+      "assets/BodyBlock.css"
+    ],
+    "file": "assets/BodyBlock.js",
+    "imports": [
+      "__plugin-vue_export-helper.js",
+      "_vendor.js"
+    ]
+  },
+  "__plugin-vue_export-helper.js": {
+    "file": "assets/_plugin-vue_export-helper.js"
+  },
+  "_useEmitter.js": {
+    "file": "assets/useEmitter.js",
+    "imports": [
+      "_vendor.js"
+    ]
+  },
   "_vendor.js": {
     "file": "assets/vendor.js"
   },
@@ -10,22 +47,66 @@
     "css": [
       "assets/index.css"
     ],
-    "dynamicImports": [
-      "src/views/HomeView.vue",
-      "src/views/Page404.vue"
-    ],
     "file": "assets/index.js",
     "imports": [
-      "_vendor.js"
+      "_vendor.js",
+      "_AnchorElement.vue_vue_type_script_setup_true_lang.js",
+      "_useEmitter.js",
+      "__plugin-vue_export-helper.js"
     ],
     "isEntry": true,
     "src": "index.html"
   },
+  "src/views/AttendTheNCC.css": {
+    "file": "assets/AttendTheNCC.css",
+    "src": "src/views/AttendTheNCC.css"
+  },
+  "src/views/AttendTheNCC.vue": {
+    "css": [
+      "assets/AttendTheNCC.css"
+    ],
+    "file": "assets/AttendTheNCC.js",
+    "imports": [
+      "_vendor.js",
+      "_AnchorElement.vue_vue_type_script_setup_true_lang.js",
+      "_BodyBlock.js",
+      "_useEmitter.js",
+      "__plugin-vue_export-helper.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/views/AttendTheNCC.vue"
+  },
+  "src/views/Contribute2Project.vue": {
+    "file": "assets/Contribute2Project.js",
+    "imports": [
+      "__plugin-vue_export-helper.js",
+      "_vendor.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/views/Contribute2Project.vue"
+  },
+  "src/views/HelpTheNCCBetter.vue": {
+    "file": "assets/HelpTheNCCBetter.js",
+    "imports": [
+      "__plugin-vue_export-helper.js",
+      "_vendor.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/views/HelpTheNCCBetter.vue"
+  },
+  "src/views/HomeView.css": {
+    "file": "assets/HomeView.css",
+    "src": "src/views/HomeView.css"
+  },
   "src/views/HomeView.vue": {
+    "css": [
+      "assets/HomeView.css"
+    ],
     "file": "assets/HomeView.js",
     "imports": [
-      "index.html",
-      "_vendor.js"
+      "_AnchorElement.vue_vue_type_script_setup_true_lang.js",
+      "_vendor.js",
+      "__plugin-vue_export-helper.js"
     ],
     "isDynamicEntry": true,
     "src": "src/views/HomeView.vue"
@@ -40,10 +121,21 @@
     ],
     "file": "assets/Page404.js",
     "imports": [
-      "index.html",
-      "_vendor.js"
+      "_AnchorElement.vue_vue_type_script_setup_true_lang.js",
+      "_BodyBlock.js",
+      "_vendor.js",
+      "__plugin-vue_export-helper.js"
     ],
     "isDynamicEntry": true,
     "src": "src/views/Page404.vue"
+  },
+  "src/views/ProjectJoinsNCC.vue": {
+    "file": "assets/ProjectJoinsNCC.js",
+    "imports": [
+      "__plugin-vue_export-helper.js",
+      "_vendor.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/views/ProjectJoinsNCC.vue"
   }
 }

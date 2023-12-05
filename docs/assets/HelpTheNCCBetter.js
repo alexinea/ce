@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper.js";import{o as t,a as s,e as o}from"./vendor.js";const c={},r={class:"responsive-width text-2xl text-black dark:text-white text-center"},n=o("div",{class:"mt-48"},"The site is under development.",-1),a=[n];function _(i,d){return t(),s("div",r,a)}const m=e(c,[["render",_]]);export{m as default};
